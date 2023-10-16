@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>hw0 transition in svg</title>
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
+
+    circle {
+        stroke: black;
+        fill: red;
+        stroke-width: 10px;
+        transition: all 2000ms;
+    }
+
+    circle:hover {
+        fill: green;
+        stroke-width: 20px;
+    }
+</style>
+<body>
+    <svg width="960" height="500">
+        <circle cx="100" , cy="100" r="50"></circle>
+    </svg>
+</body>
+</html>

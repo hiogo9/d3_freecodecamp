@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>hw0_1 sunrise</title>
+</head>
+<style>
+</style>
+<body>
+    <svg width="960" height="500">
+        <defs>
+            <radialGradient
+            id="sky-gradient"
+            cx="50%"
+            cy="50%"
+            r="75%"
+            >
+            <stop
+            offset="0%"
+            stop-color="yellow"
+            >
+                <animate
+                attributeName="stop-color"
+                values="aliceblue;indigo;aliceblue"
+                dur="15s"
+                repeatCount="indefinitive"
+                >
+                </animate>
+            </stop>
+            <stop
+            offset="50%"
+            stop-color="red"
+            >
+            </radialGradient>
+
+
+        </defs>
+        <rect
+            x="0"
+            y="0"
+            width="960"
+            height="500"
+            fill="url(#sky-gradient)"
+        </rect>
+        <path d ="M 0300 L 960500" stroke="black"></path>
+    </svg>
+</body>
+</html>
